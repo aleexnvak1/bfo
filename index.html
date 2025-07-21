@@ -566,7 +566,10 @@
     document.getElementById('contact-form').onsubmit = function(e) {
       e.preventDefault();
       // Sehr einfache Frontend-Validierung
-      const form = e.target;
+      const form = e.target;git init
+git add .
+git commit -m "Initial commit"
+
       let valid = true;
       form.querySelectorAll('input[required],textarea[required]').forEach(el => {
         if (!el.value.trim()) valid = false;
